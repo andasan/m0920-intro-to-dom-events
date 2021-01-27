@@ -19,6 +19,14 @@ const init = () => {
         if(e.key === 'ArrowDown' || e.key === 'Down'){
             moveVertical(avatar, 50);
         }
+
+
+
+
+
+
+
+        if(isTouching(avatar,coin)) moveCoin();
     });
 }
 
